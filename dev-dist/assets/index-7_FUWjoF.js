@@ -18995,15 +18995,6 @@ var CircleCheck = createLucideIcon("circle-check", [["circle", {
 	d: "m9 12 2 2 4-4",
 	key: "dzmm74"
 }]]);
-var CirclePlay = createLucideIcon("circle-play", [["path", {
-	d: "M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z",
-	key: "kmsa83"
-}], ["circle", {
-	cx: "12",
-	cy: "12",
-	r: "10",
-	key: "1mglay"
-}]]);
 var CircleQuestionMark = createLucideIcon("circle-question-mark", [
 	["circle", {
 		cx: "12",
@@ -19087,31 +19078,6 @@ var Globe = createLucideIcon("globe", [
 	["path", {
 		d: "M2 12h20",
 		key: "9i4pu4"
-	}]
-]);
-var Heart = createLucideIcon("heart", [["path", {
-	d: "M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5",
-	key: "mvr1a0"
-}]]);
-var Image = createLucideIcon("image", [
-	["rect", {
-		width: "18",
-		height: "18",
-		x: "3",
-		y: "3",
-		rx: "2",
-		ry: "2",
-		key: "1m3agn"
-	}],
-	["circle", {
-		cx: "9",
-		cy: "9",
-		r: "2",
-		key: "af1f0g"
-	}],
-	["path", {
-		d: "m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21",
-		key: "1xmnt7"
 	}]
 ]);
 var Instagram = createLucideIcon("instagram", [
@@ -19205,24 +19171,6 @@ var MessageSquare = createLucideIcon("message-square", [["path", {
 	d: "M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z",
 	key: "18887p"
 }]]);
-var Music = createLucideIcon("music", [
-	["path", {
-		d: "M9 18V5l12-2v13",
-		key: "1jmyc2"
-	}],
-	["circle", {
-		cx: "6",
-		cy: "18",
-		r: "3",
-		key: "fqmcym"
-	}],
-	["circle", {
-		cx: "18",
-		cy: "16",
-		r: "3",
-		key: "1hluhg"
-	}]
-]);
 var Palette = createLucideIcon("palette", [
 	["path", {
 		d: "M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z",
@@ -24741,78 +24689,34 @@ const ParentChild = () => {
 						children: "Sinergia Familiar"
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-						className: "text-3xl md:text-4xl font-bold font-heading mb-4",
-						children: "Aprenda Junto e Crie Memórias"
+						className: "text-3xl md:text-4xl font-bold font-heading mb-6",
+						children: "Aqui vocês aprendem juntos — e isso muda o jogo."
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "text-lg text-slate-300",
-						children: "Transforme o tempo de tela que antes afastava vocês em um momento de conexão, colaboração e descobertas em família."
+						className: "text-lg text-slate-300 leading-relaxed",
+						children: "Isso não é \"curso pra criança ficar isolada\". Você entra junto, aprende junto e passa a ter repertório para guiar o uso de tecnologia em casa."
 					})
 				]
-			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "grid md:grid-cols-3 gap-8",
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				className: "max-w-4xl mx-auto grid md:grid-cols-2 gap-6",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Card, {
-						className: "bg-white/10 border-none backdrop-blur-sm hover:bg-white/20 transition-colors",
-						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
-							className: "p-8 text-center flex flex-col items-center text-white",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-									className: "w-14 h-14 bg-brand-gold/20 rounded-full flex items-center justify-center mb-6",
-									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Heart, { className: "w-7 h-7 text-brand-gold" })
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-									className: "text-xl font-bold mb-3",
-									children: "Tempo de Qualidade"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-slate-300 text-sm leading-relaxed",
-									children: "Sentar lado a lado para dar vida às ideias fortalece o vínculo e gera histórias inesquecíveis que ficarão para sempre."
-								})
-							]
-						})
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Card, {
-						className: "bg-white/10 border-none backdrop-blur-sm hover:bg-white/20 transition-colors",
-						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
-							className: "p-8 text-center flex flex-col items-center text-white",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-									className: "w-14 h-14 bg-blue-500/20 rounded-full flex items-center justify-center mb-6",
-									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Users, { className: "w-7 h-7 text-blue-300" })
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-									className: "text-xl font-bold mb-3",
-									children: "Colaboração e Parceria"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-slate-300 text-sm leading-relaxed",
-									children: "Você e seu filho se tornam uma equipe criativa, superando desafios, alinhando ideias e aprendendo a tecnologia juntos."
-								})
-							]
-						})
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Card, {
-						className: "bg-white/10 border-none backdrop-blur-sm hover:bg-white/20 transition-colors",
-						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
-							className: "p-8 text-center flex flex-col items-center text-white",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-									className: "w-14 h-14 bg-green-500/20 rounded-full flex items-center justify-center mb-6",
-									children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Zap, { className: "w-7 h-7 text-green-300" })
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-									className: "text-xl font-bold mb-3",
-									children: "Incentivo Positivo"
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-slate-300 text-sm leading-relaxed",
-									children: "Sua participação valida o esforço dele, incentivando o interesse contínuo por aprender mais e sair do consumo passivo."
-								})
-							]
-						})
+					"menos briga para tirar o celular",
+					"mais \"me mostra o que você criou\"",
+					"mais controle e menos culpa",
+					"tecnologia vira ferramenta, não fuga"
+				].map((item, index$1) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Card, {
+					className: "bg-white/10 border-none backdrop-blur-sm hover:bg-white/20 transition-colors",
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
+						className: "p-6 flex items-center gap-4 text-white h-full",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "bg-brand-gold/20 p-2 rounded-full shrink-0",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CircleCheck, { className: "w-6 h-6 text-brand-gold" })
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "font-medium text-lg leading-snug",
+							children: item.charAt(0).toUpperCase() + item.slice(1)
+						})]
 					})
-				]
+				}, index$1))
 			})]
 		})]
 	});
@@ -24831,81 +24735,28 @@ const Results = () => {
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
 						className: "text-3xl md:text-4xl font-bold font-heading text-brand-dark mb-4",
-						children: "Veja o que as crianças estão criando"
+						children: "Resultados reais (demonstração): meus filhos criaram a própria música com IA"
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 						className: "text-lg text-slate-600",
-						children: "Do consumo passivo à criação ativa e impressionante. Estas são artes e músicas reais geradas por alunos nas primeiras semanas."
+						children: "Antes de abrir para o público, eu testei o passo a passo dentro de casa com meus filhos — e eles conseguiram criar uma música com IA."
 					})
 				]
-			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "grid md:grid-cols-2 gap-8 max-w-5xl mx-auto",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Card, {
-					className: "overflow-hidden border-none shadow-lg hover:shadow-xl transition-shadow group",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "h-64 overflow-hidden relative",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-							src: "https://img.usecurling.com/p/600/400?q=colorful%20fantasy%20digital%20art&color=purple",
-							alt: "Arte criada com IA",
-							className: "w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-brand-dark flex items-center gap-1 shadow-sm",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Image, { className: "w-3 h-3" }), " Arte Digital"]
-						})]
-					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
-						className: "p-6 bg-white",
-						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-								className: "font-bold text-lg mb-2 text-brand-dark",
-								children: "\"O Dragão Cibernético\""
-							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-								className: "text-slate-600 text-sm mb-4",
-								children: "Criado pelo Pedro, 9 anos. Ele imaginou o personagem e usou prompts precisos para dar vida a essa ilustração incrível sem nenhum clique técnico complicado."
-							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-								className: "text-xs text-slate-500 bg-slate-50 p-3 rounded-lg border border-slate-100 italic",
-								children: "Prompt usado: \"Um dragão robótico voando sobre uma cidade futurista com luzes neon, estilo 3D cartoon...\""
-							})
-						]
-					})]
-				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Card, {
-					className: "overflow-hidden border-none shadow-lg hover:shadow-xl transition-shadow group",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "h-64 bg-slate-900 relative flex items-center justify-center overflow-hidden",
-						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-								src: "https://img.usecurling.com/p/600/400?q=music%20notes%20abstract&color=blue",
-								alt: "Música criada com IA",
-								className: "absolute inset-0 w-full h-full object-cover opacity-40 group-hover:scale-105 transition-transform duration-500"
-							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-								className: "w-16 h-16 bg-brand-gold rounded-full flex items-center justify-center relative z-10 cursor-pointer hover:scale-110 transition-transform shadow-lg shadow-brand-gold/30",
-								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CirclePlay, { className: "w-8 h-8 text-brand-dark ml-1" })
-							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-brand-dark flex items-center gap-1 z-10 shadow-sm",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Music, { className: "w-3 h-3" }), " Música"]
-							})
-						]
-					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
-						className: "p-6 bg-white",
-						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-								className: "font-bold text-lg mb-2 text-brand-dark",
-								children: "\"A Canção do Espaço\""
-							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-								className: "text-slate-600 text-sm mb-4",
-								children: "Composta pela Sofia, 11 anos. Ela escreveu a letra completa sobre explorar planetas e a IA gerou a melodia pop eletrônica perfeitamente sincronizada."
-							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-								className: "text-xs text-slate-500 bg-slate-50 p-3 rounded-lg border border-slate-100 italic",
-								children: "Estilo gerado: \"Pop eletrônico, batida animada, vocal infantil feminino, sintetizadores...\""
-							})
-						]
-					})]
-				})]
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				className: "max-w-sm mx-auto",
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Card, {
+					className: "overflow-hidden border-none shadow-2xl rounded-3xl bg-slate-900 ring-4 ring-brand-indigo/10",
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "relative aspect-[9/16] w-full",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("iframe", {
+							src: "https://www.youtube.com/embed/RTxAuNtN2OM?autoplay=0&rel=0",
+							title: "Resultados reais (demonstração): meus filhos criaram a própria música com IA",
+							allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+							allowFullScreen: true,
+							className: "absolute top-0 left-0 w-full h-full border-0"
+						})
+					})
+				})
 			})]
 		})
 	});
@@ -27284,4 +27135,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-D9lkSxSH.js.map
+//# sourceMappingURL=index-7_FUWjoF.js.map
