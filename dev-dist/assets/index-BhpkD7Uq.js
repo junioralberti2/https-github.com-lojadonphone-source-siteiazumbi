@@ -18923,6 +18923,68 @@ var Bot = createLucideIcon("bot", [
 		key: "rq6x2g"
 	}]
 ]);
+var BrainCircuit = createLucideIcon("brain-circuit", [
+	["path", {
+		d: "M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z",
+		key: "l5xja"
+	}],
+	["path", {
+		d: "M9 13a4.5 4.5 0 0 0 3-4",
+		key: "10igwf"
+	}],
+	["path", {
+		d: "M6.003 5.125A3 3 0 0 0 6.401 6.5",
+		key: "105sqy"
+	}],
+	["path", {
+		d: "M3.477 10.896a4 4 0 0 1 .585-.396",
+		key: "ql3yin"
+	}],
+	["path", {
+		d: "M6 18a4 4 0 0 1-1.967-.516",
+		key: "2e4loj"
+	}],
+	["path", {
+		d: "M12 13h4",
+		key: "1ku699"
+	}],
+	["path", {
+		d: "M12 18h6a2 2 0 0 1 2 2v1",
+		key: "105ag5"
+	}],
+	["path", {
+		d: "M12 8h8",
+		key: "1lhi5i"
+	}],
+	["path", {
+		d: "M16 8V5a2 2 0 0 1 2-2",
+		key: "u6izg6"
+	}],
+	["circle", {
+		cx: "16",
+		cy: "13",
+		r: ".5",
+		key: "ry7gng"
+	}],
+	["circle", {
+		cx: "18",
+		cy: "3",
+		r: ".5",
+		key: "1aiba7"
+	}],
+	["circle", {
+		cx: "20",
+		cy: "21",
+		r: ".5",
+		key: "yhc1fs"
+	}],
+	["circle", {
+		cx: "20",
+		cy: "8",
+		r: ".5",
+		key: "1e43v0"
+	}]
+]);
 var Brain = createLucideIcon("brain", [
 	["path", {
 		d: "M12 18V5",
@@ -19317,6 +19379,20 @@ var TrendingUp = createLucideIcon("trending-up", [["path", {
 	d: "m22 7-8.5 8.5-5-5L2 17",
 	key: "1t1m79"
 }]]);
+var TriangleAlert = createLucideIcon("triangle-alert", [
+	["path", {
+		d: "m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3",
+		key: "wmoenq"
+	}],
+	["path", {
+		d: "M12 9v4",
+		key: "juzpu7"
+	}],
+	["path", {
+		d: "M12 17h.01",
+		key: "p32p05"
+	}]
+]);
 var Users = createLucideIcon("users", [
 	["path", {
 		d: "M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2",
@@ -25263,6 +25339,84 @@ const FAQ = () => {
 		})
 	});
 };
+const Inaction = () => {
+	const handlePurchase = () => {
+		trackEvent("InitiateCheckout");
+		window.location.href = "https://pay.hotmart.com/E103583426A";
+	};
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+		className: "py-20 bg-white border-t border-slate-100",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "container mx-auto px-4",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "max-w-3xl mx-auto text-center mb-12",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+						className: "text-3xl md:text-4xl font-bold font-heading text-brand-dark mb-6",
+						children: "E se você não fizer nada?"
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "text-lg text-slate-600",
+						children: "O tempo de tela não vai diminuir sozinho. Pelo contrário, o custo da inércia é alto:"
+					})]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "max-w-4xl mx-auto space-y-4 mb-12",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex items-start gap-4 p-5 sm:p-6 bg-red-50 rounded-2xl border border-red-100 transition-transform hover:-translate-y-1",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "bg-red-100 p-3 rounded-full shrink-0 mt-0.5",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(TriangleAlert, { className: "w-5 h-5 sm:w-6 sm:h-6 text-red-600" })
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "text-red-900 font-medium text-base sm:text-lg leading-relaxed",
+								children: "A tolerância ao tédio tende a piorar: tudo que exige esforço vira “chato”."
+							}) })]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex items-start gap-4 p-5 sm:p-6 bg-orange-50 rounded-2xl border border-orange-100 transition-transform hover:-translate-y-1",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "bg-orange-100 p-3 rounded-full shrink-0 mt-0.5",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(EyeOff, { className: "w-5 h-5 sm:w-6 sm:h-6 text-orange-600" })
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "text-orange-900 font-medium text-base sm:text-lg leading-relaxed",
+								children: "E quando você perceber, a tela não é mais ferramenta: é rotina, hábito e dependência de estímulo."
+							}) })]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex items-start gap-4 p-5 sm:p-6 bg-slate-50 rounded-2xl border border-slate-200 transition-transform hover:-translate-y-1",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "bg-slate-200 p-3 rounded-full shrink-0 mt-0.5",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrainCircuit, { className: "w-5 h-5 sm:w-6 sm:h-6 text-slate-600" })
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "text-slate-800 font-medium text-base sm:text-lg leading-relaxed",
+								children: "A verdade é simples: se você não direcionar o uso da tecnologia, alguém vai. E esse “alguém” não está preocupado com o futuro do seu filho — está preocupado com retenção."
+							}) })]
+						})
+					]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "max-w-3xl mx-auto bg-amber-50 border border-amber-200 rounded-2xl p-5 md:p-6 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-4 shadow-sm mb-12",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(CircleAlert, { className: "w-8 h-8 text-amber-500 shrink-0" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+						className: "text-amber-800 font-medium text-sm md:text-base",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", {
+							className: "block mb-1",
+							children: "Aviso Importante:"
+						}), "Em breve, o valor volta para R$ 497. Aproveite essa janela de oportunidade para garantir o acesso vitalício do seu filho com desconto máximo."]
+					})]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "text-center flex justify-center",
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+						onClick: handlePurchase,
+						size: "lg",
+						className: "w-full sm:w-auto h-auto min-h-[64px] py-4 rounded-full bg-green-500 hover:bg-green-600 text-white font-bold text-sm sm:text-base md:text-lg px-4 md:px-8 shadow-xl shadow-green-500/20 animate-pulse-slow border-0 whitespace-normal leading-tight text-center",
+						children: "👉 Quero dar direção e transformar tela em criação (começar hoje)"
+					})
+				})
+			]
+		})
+	});
+};
 const EmotionalClosing = () => {
 	const handlePurchase = () => {
 		trackEvent("InitiateCheckout");
@@ -25354,6 +25508,7 @@ var Index = () => {
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Pricing, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Author, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FAQ, {}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Inaction, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(EmotionalClosing, {})
 		]
 	});
@@ -27145,4 +27300,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-CFYC-x-W.js.map
+//# sourceMappingURL=index-BhpkD7Uq.js.map

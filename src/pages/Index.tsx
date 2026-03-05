@@ -12,6 +12,7 @@ import { PriceJustification } from '@/components/sections/PriceJustification'
 import { Pricing } from '@/components/sections/Pricing'
 import { Author } from '@/components/sections/Author'
 import { FAQ } from '@/components/sections/FAQ'
+import { Inaction } from '@/components/sections/Inaction'
 import { EmotionalClosing } from '@/components/sections/EmotionalClosing'
 
 const Index = () => {
@@ -31,6 +32,7 @@ const Index = () => {
       <Pricing />
       <Author />
       <FAQ />
+      <Inaction />
       <EmotionalClosing />
     </div>
   )
