@@ -24245,7 +24245,7 @@ var Button = import_react.forwardRef(({ className, variant, size: size$3, asChil
 	});
 });
 Button.displayName = "Button";
-const FB_PIXEL_ID = "870230895767208";
+const FB_PIXEL_ID = "1204931778279458";
 const FB_CAPI_TOKEN = "EAF1Qz1UQG0cBQoqQ5jldOGr9X99j5QHDSMqUlQdnnhZCl4H2xqil5P4gSExcRfoTqqCpkRZByzTrrNxocGLWhpyBnCzUHkUiggjPS3TeKzQwCavabEaSZB8l71mFQgRZCBL9D9vPXZAfjHpfbDVuwJAil8ds5GIoNTxthZAseNuVnkPWMZADEvIe1RfBGMUCwZDZD";
 const initFacebookPixel = () => {
 	if (typeof window === "undefined") return;
@@ -24265,8 +24265,8 @@ const initFacebookPixel = () => {
 	const t = document.createElement("script");
 	t.async = true;
 	t.src = "https://connect.facebook.net/en_US/fbevents.js";
-	const s = document.getElementsByTagName("script")[0];
-	if (s?.parentNode) s.parentNode.insertBefore(t, s);
+	const head = document.head || document.getElementsByTagName("head")[0];
+	if (head) head.appendChild(t);
 	window.fbq("init", FB_PIXEL_ID);
 };
 const trackEvent = async (eventName, params = {}) => {
@@ -27290,4 +27290,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-CpcUnMjQ.js.map
+//# sourceMappingURL=index-bfJ-YVSf.js.map

@@ -5,7 +5,7 @@ declare global {
   }
 }
 
-export const FB_PIXEL_ID = '870230895767208'
+export const FB_PIXEL_ID = '1204931778279458'
 export const FB_CAPI_TOKEN =
   'EAF1Qz1UQG0cBQoqQ5jldOGr9X99j5QHDSMqUlQdnnhZCl4H2xqil5P4gSExcRfoTqqCpkRZByzTrrNxocGLWhpyBnCzUHkUiggjPS3TeKzQwCavabEaSZB8l71mFQgRZCBL9D9vPXZAfjHpfbDVuwJAil8ds5GIoNTxthZAseNuVnkPWMZADEvIe1RfBGMUCwZDZD'
 
@@ -37,9 +37,9 @@ export const initFacebookPixel = () => {
   t.async = true
   t.src = 'https://connect.facebook.net/en_US/fbevents.js'
 
-  const s = document.getElementsByTagName('script')[0]
-  if (s?.parentNode) {
-    s.parentNode.insertBefore(t, s)
+  const head = document.head || document.getElementsByTagName('head')[0]
+  if (head) {
+    head.appendChild(t)
   }
 
   window.fbq('init', FB_PIXEL_ID)
